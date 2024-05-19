@@ -1,0 +1,14 @@
+.creatorWrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: 40px;
+  gap: 10px;
+
+  @include desktopAndAbove() {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+  }
+}

@@ -1,0 +1,19 @@
+.container {
+  // MOBILE
+  max-width: $desktopPx;
+  margin: 0 auto;
+  padding-left: rem(10px);
+  padding-right: rem(10px);
+
+  @include tabletAndAbove {
+    // TABLET 768 +
+    padding-left: rem(16px);
+    padding-right: rem(16px);
+  }
+
+  @include desktopAndAbove(16) {
+    // DESKTOP 1368 + 16px
+    padding-left: rem(0);
+    padding-right: rem(0);
+  }
+}

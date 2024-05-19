@@ -1,0 +1,39 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @include desktopAndAbove() {
+    display: flex;
+    flex-direction: column;
+  }
+
+  font-family: "Brandon Text";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.269px;
+
+  @include desktopAndAbove() {
+    color: var(--Black, #292929);
+
+    cursor: pointer;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.235px;
+  }
+}
+
+.list {
+  @include desktopAndAbove() {
+    max-width: 185px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}

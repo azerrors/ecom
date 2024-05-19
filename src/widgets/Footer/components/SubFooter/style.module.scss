@@ -1,0 +1,17 @@
+.container {
+  padding-top: 24px;
+
+  @include desktopAndAbove {
+    padding-top: 40px;
+  }
+}
+.iconCenter {
+  display: flex;
+  align-items: center;
+
+  @include desktopAndAbove {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

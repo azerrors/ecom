@@ -1,0 +1,29 @@
+.container {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  padding: 48px 10px 24px 10px;
+
+  @include desktopAndAbove() {
+    padding: 60px 30px 20px 30px;
+    width: 1368px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 24px;
+    gap: 48px;
+
+    @include desktopAndAbove() {
+      display: flex;
+      flex-direction: row;
+      border-bottom: 1px solid #d6d6d6;
+      gap: 30px;
+      padding-bottom: 48px;
+    }
+  }
+}

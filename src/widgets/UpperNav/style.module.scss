@@ -1,0 +1,16 @@
+.upperNav {
+  background-color: $c-light-c9;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1254' height='46' viewBox='0 0 1254 46' fill='none'%3E%3Cpath d='M1253.5 0H124.691C97.8983 1.93041 86.1232 2.92402 65.6643 14.1431C53.6614 20.7252 45.8033 27.1269 33.8945 33.8689C20.3011 41.5647 0.559937 46 0.559937 46H1253.5V0Z' fill='url(%23paint0_linear_1151_53481)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_1151_53481' x1='1253.5' y1='23' x2='0.559937' y2='23' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23C5D9C9'/%3E%3Cstop offset='1' stop-color='%2387A88F'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right;
+  font-size: rem(12px);
+  color: $c-white;
+}
+
+.content {
+  padding-top: rem(9px);
+  padding-bottom: rem(9px);
+  display: flex;
+  justify-content: flex-end;
+  height: 46px;
+}

@@ -1,0 +1,25 @@
+.footerLinksList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition:
+    max-height 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
+
+  @include desktopAndAbove() {
+    opacity: 1;
+    max-height: 100%;
+    transition: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+.show {
+  max-height: 500px; // Adjust based on your content's needs
+  opacity: 1;
+}

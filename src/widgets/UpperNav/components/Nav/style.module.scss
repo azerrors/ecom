@@ -1,0 +1,13 @@
+.nav {
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(20px);
+  margin-right: rem(20px);
+  font-size: rem(12px);
+  letter-spacing: 0.36px;
+  display: none;
+
+  @include desktopAndAbove {
+    display: flex;
+  }
+}

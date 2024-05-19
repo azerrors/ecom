@@ -1,0 +1,61 @@
+.container {
+  @include desktopAndAbove {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.section {
+  @include desktopAndAbove {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 40px 0px;
+    width: 1440px;
+  }
+}
+
+.club1 {
+  background: url("../../assets/images/club1.png") no-repeat;
+  border-radius: 16px;
+  object-fit: contain;
+  width: 315px;
+  height: 157px;
+
+  @include desktopAndAbove {
+    height: 212px;
+    width: rem(450px);
+  }
+}
+
+.club2 {
+  background: url("../../assets/images/club2.png") no-repeat;
+  height: 212px;
+  width: rem(450px);
+  object-fit: contain;
+  border-radius: 16px;
+}
+.cashback1 {
+  background: url("../../assets/images/cashback1.png") no-repeat;
+  height: 212px;
+  width: rem(450px);
+  object-fit: contain;
+  border-radius: 16px;
+}
+.cashback2 {
+  background: url("../../assets/images/cashback2.png") no-repeat;
+  height: 212px;
+  width: rem(450px);
+  object-fit: contain;
+  border-radius: 16px;
+}
+.video {
+  background: url("../../assets/images/video.png") no-repeat;
+  width: 355px;
+  height: 375px;
+
+  @include desktopAndAbove {
+    width: 440px;
+    height: 440px;
+  }
+}

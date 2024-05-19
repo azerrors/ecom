@@ -1,0 +1,24 @@
+.slidesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: rem(20px);
+}
+
+.slideItem {
+  width: rem(167px);
+  height: rem(67px);
+  padding: 0 10px;
+  border: 1px solid $c-gray-f0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideImage {
+  height: 100%;
+  max-height: 43px;
+  display: flex;
+  align-items: center;
+}

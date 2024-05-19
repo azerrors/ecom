@@ -1,0 +1,37 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  @include desktopAndAbove() {
+    display: flex;
+    width: 218px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    @include desktopAndAbove() {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .qr {
+    width: 108.916px;
+    height: 108.916px;
+    background: url("../../../../assets/images/qr.png");
+  }
+
+  .downloadLinks {
+    width: 177.16px;
+    height: 108px;
+
+    background: url("../../../../assets/images/download_app_links.png")
+      no-repeat;
+  }
+}

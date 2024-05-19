@@ -1,0 +1,14 @@
+$tabletPx: 768px;
+$desktopPx: 1368px;
+
+@mixin tabletAndAbove($offset: 0px) {
+  @media only screen and (min-width: rem($tabletPx + $offset)) {
+    @content;
+  }
+}
+
+@mixin desktopAndAbove($offset: 0px) {
+  @media only screen and (min-width: rem($desktopPx + $offset)) {
+    @content;
+  }
+}

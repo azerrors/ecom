@@ -1,0 +1,32 @@
+.pills {
+  display: flex;
+  justify-content: space-between;
+  gap: rem(8px);
+  margin-right: rem(20px);
+
+  @include desktopAndAbove {
+    gap: rem(24px);
+    margin-right: rem(30px);
+  }
+}
+
+.pillBtn {
+  background-color: $c-white;
+  color: $c-black;
+  border-radius: 16px;
+  position: relative;
+  padding: 10px 10px 10px 31px;
+  font-size: rem(12px);
+  letter-spacing: 0.36px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.pillIcon {
+  position: absolute;
+  top: 0;
+  left: -2px;
+  transform: rotate(-18.05deg);
+}
